@@ -18,7 +18,7 @@ public class Queue {
 		final int upperbound = 200;
 		final int lowerbound = 1;
 
-		for (int i = 1; i < 10; i++) {
+		for (int i = 1; i < 50; i++) {
 			final int nr = rnd.nextInt(upperbound-lowerbound) + lowerbound;
 
 			list.add(new Patient(nr, i));
