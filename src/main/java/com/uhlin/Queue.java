@@ -15,7 +15,7 @@ public class Queue {
 		list = new ArrayList<Patient>();
 
 		Random rnd = new Random();
-		final int upperbound = 5000;
+		final int upperbound = 200;
 		final int lowerbound = 1;
 
 		for (int i = 1; i < 10; i++) {
